@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "149781281634",
+    "project_id": "techworldassignment",
+    "storage_bucket": "techworldassignment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149781281634:android:0a5c5fe1fd7b6e122aca3b",
+        "android_client_info": {
+          "package_name": "com.example.techworld_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLJeN2BGwjO3R1HVWiF43FNRr8e18yKO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
