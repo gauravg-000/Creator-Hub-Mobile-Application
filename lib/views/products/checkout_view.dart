@@ -16,7 +16,7 @@ class CheckoutView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Checkout'),
-        backgroundColor: AppColors.primary,
+        centerTitle: true,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
@@ -114,7 +114,7 @@ class CheckoutView extends StatelessWidget {
                             Text('Completing payment...'),
                           ],
                         )
-                      : Text('Pay ₹${controller.totalAmount.toStringAsFixed(2)}'),
+                      : Text('Pay ₹${controller.totalAmount.toStringAsFixed(2)}',style: const TextStyle(color: Colors.white,fontWeight: FontWeight.bold)),
                 ),
               ),
             ),
